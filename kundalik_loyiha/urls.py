@@ -3,6 +3,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('yozuvlar.urls')),  # Bu yozuvlar ilovasini ulaydi
+    path('', include('yozuvlar.urls')),  
 ]
 
